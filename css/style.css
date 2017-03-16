@@ -211,19 +211,22 @@ strong {
 	right: 0;
 	bottom: 0;
 	z-index: 10001;
+}
 
-  border: 10px solid #16192b;
-  border-radius: 50%;
-  border-top: 10px solid #f4144e;
-  width: 30px;
-  height: 30px;
-  -webkit-animation: spin 1s linear infinite;
-  animation: spin 1s linear infinite;
+#loading-animation {
 
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	margin: -60px 0 0 -60px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -60px 0 0 -60px;
+
+		border: 5px solid #16192b;
+	  border-radius: 50%;
+	  border-top: 5px solid #f4144e;
+	  width: 30px;
+	  height: 30px;
+	  -webkit-animation: spin 1s linear infinite;
+	  animation: spin 1s linear infinite;
 }
 
 @-webkit-keyframes spin {
