@@ -406,88 +406,73 @@ strong {
   display: table;
   height: 5px;
 }
-.planning, .programming, .developing, .supporting, .marketing {
+.mobile-web-development, .ui-ux-design, .business-analysis, .it-consulting {
   background: #666;
 }
 .about-heading h1{
   color: #e1e1e1 !important
 }
-.planning {
+.mobile-web-development {
   width: 90%;
-  -webkit-animation: planning 3s linear;
-  animation: planning 3s linear;
+  -webkit-animation: mobile-web-development 3s linear;
+  animation: mobile-web-development 3s linear;
 }
-.programming {
+.ui-ux-design {
+  width: 90%;
+  -webkit-animation: ui-ux-design 3s linear;
+  animation: ui-ux-design 3s linear;
+}
+
+.business-analysis {
   width: 80%;
-  -webkit-animation: programming 3s linear;
-  animation: programming 3s linear;
+  -webkit-animation: business-analysis 3s linear;
+  animation: business-analysis 3s linear;
 }
-
-.developing {
-  width: 70%;
-  -webkit-animation: developing 3s linear;
-  animation: developing 3s linear;
-}
-.supporting {
+.it-consulting {
   width: 85%;
-  -webkit-animation: supporting 3s linear;
-  animation: supporting 3s linear;
-}
-.marketing {
-  width: 70%;
-  -webkit-animation: marketing 3s linear;
-  animation: marketing 3s linear;
+  -webkit-animation: it-consulting 3s linear;
+  animation: it-consulting 3s linear;
 }
 
-@-webkit-keyframes planning {
+@-webkit-keyframes mobile-web-development {
   from { width: 0%; }
   to { width: 90%; }
 }
 
-@keyframes planning {
+@keyframes mobile-web-development {
   from { width: 0%; }
   to { width: 90%; }
 }
 
-@-webkit-keyframes programming {
+@-webkit-keyframes ui-ux-design {
+  from { width: 0%; }
+  to { width: 90%; }
+}
+
+@keyframes ui-ux-design {
+  from { width: 0%; }
+  to { width: 90%; }
+}
+
+
+@-webkit-keyframes business-analysis {
   from { width: 0%; }
   to { width: 80%; }
 }
 
-@keyframes programming {
+@keyframes business-analysis {
   from { width: 0%; }
   to { width: 80%; }
 }
 
-
-@-webkit-keyframes developing {
-  from { width: 0%; }
-  to { width: 70%; }
-}
-
-@keyframes developing {
-  from { width: 0%; }
-  to { width: 70%; }
-}
-
-@-webkit-keyframes supporting {
+@-webkit-keyframes it-consulting {
   from { width: 0%; }
   to { width: 85%; }
 }
 
-@keyframes supporting {
+@keyframes it-consulting {
   from { width: 0%; }
   to { width: 85%; }
-}
-
-@-webkit-keyframes marketing {
-  from { width: 0%; }
-  to { width: 70%; }
-}
-
-@keyframes marketing {
-  from { width: 0%; }
-  to { width: 70%; }
 }
 
 .video-section {
