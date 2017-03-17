@@ -44,7 +44,7 @@
 
 		$(window).load(function() {
 
-			var preloaderDelay = 3500,
+			var preloaderDelay = 350,
 				preloaderFadeOutTime = 800;
 
 			function hidePreloader() {
