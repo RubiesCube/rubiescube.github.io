@@ -44,8 +44,8 @@
 
 		$(window).load(function() {
 
-			var preloaderDelay = 350,
-				preloaderFadeOutTime = 800;
+			var preloaderDelay = 150,
+				preloaderFadeOutTime = 500;
 
 			function hidePreloader() {
 				var loadingAnimation = $('#loading-animation'),
@@ -114,7 +114,7 @@
 					Clock Countdown
 		======================================*/
 
-		$('#clock-countdown').countdown('2017/4/1 12:00:00').on('update.countdown', function(event) {
+		$('#clock-countdown').countdown('2017/4/15 12:00:00').on('update.countdown', function(event) {
 			var $this = $(this).html(event.strftime(''
 				+ '<div class="counter-container"><div class="counter-box first"><div class="number">%-D</div><span>Day%!d</span></div>'
 				+ '<div class="counter-box"><div class="number">%H</div><span>Hours</span></div>'

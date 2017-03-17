@@ -32,6 +32,7 @@
 	padding: 0 140px 2em 0;
 	overflow-y: auto;
 	height: 100%;
+	/*border: 1px solid red;*/
 	position: relative;
 	z-index: 100;
 }
@@ -82,7 +83,7 @@
 }
 
 .menu ul li .fa {
-	font-size: 2.5em;
+	font-size: 2em;
 	display: block;
 	margin: 0 auto;
 	color: #fff;
